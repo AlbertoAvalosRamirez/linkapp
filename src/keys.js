@@ -1,1 +1,9 @@
-//todas las keys necesarias para crear serivicios rutas de las conexionea  a la db van aqui
+//DB CONFIGURATION
+module.exports = {
+    database : {
+        host : 'localhost',
+        user : 'albert',
+        password : 'admin123',
+        database : 'linksapp'
+    }   
+};
